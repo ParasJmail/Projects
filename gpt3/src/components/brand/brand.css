@@ -1,0 +1,35 @@
+.gpt3__brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    
+
+}
+
+.gpt3__brand div{
+    width: Hug (130.56px);
+    height: Hug (24.15px);
+    top: 893px;
+    left: 399px;
+    gap: 46.483489990234375px;
+
+}
+
+.gpt3__brand div {
+    flex: 1;
+    max-width: 120px;
+    min-width: 70px;
+    margin: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
