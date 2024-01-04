@@ -4,12 +4,12 @@ const mongoose = require("mongoose");
 const taskSchema = new mongoose.Schema({
     name:{
         type:String,
-        required:[true,"Please enter product name"],
+        required:[true,"Please enter task name"],
         trim:true
     },
     description:{
         type:String,
-        required:[true,"Please enter product description"]
+        required:[true,"Please enter task description"]
     },
     images:[
         {
@@ -25,7 +25,7 @@ const taskSchema = new mongoose.Schema({
     ],
     category:{
         type:String,
-        required:[true,"Please Enter Product Category"],
+        required:[true,"Please Enter Task Category"],
 
     },
     user:{
@@ -39,4 +39,4 @@ const taskSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model("Product",taskSchema);
+module.exports = mongoose.model("Task",taskSchema);
